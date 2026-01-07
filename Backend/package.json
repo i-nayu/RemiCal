@@ -1,0 +1,25 @@
+{
+  "name": "remical-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@line/bot-sdk": "^7.7.0",
+    "better-sqlite3": "^12.4.6",
+    "dayjs": "^1.11.19",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "googleapis": "^118.0.0",
+    "node-cron": "^4.2.1",
+    "sqlite3": "^5.1.7",
+    "tesseract.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "vite": "^7.2.2"
+  }
+}

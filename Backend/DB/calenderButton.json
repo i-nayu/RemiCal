@@ -1,0 +1,20 @@
+{
+  "type": "template",
+  "altText": "🗓️Googleカレンダーに追加しますか？🗓️",
+  "template": {
+    "type": "confirm",
+    "text": "🗓️Googleカレンダーに追加しますか？🗓️",
+    "actions": [
+      {
+        "type": "uri",
+        "label": "追加する",
+        "uri": ""
+      },
+      {
+        "type": "postback",
+        "label": "追加しない",
+        "data": "calendar_cancel"
+      }
+    ]
+  }
+}
